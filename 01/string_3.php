@@ -1,6 +1,6 @@
 <?php 
 
-$msg= 'Kenji is'. PHP_EOL. 'my friend';
+$msg= 'Kenji is <br> my friend';
 
 echo $msg;
 
