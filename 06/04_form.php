@@ -22,4 +22,28 @@ switch ($operator) {
         break;
 }
 
+
+switch ($operator) {
+    case 'addition':
+        $operator_sign='+';
+        $last_value=$num1+$num2;
+        break;
+    case 'subtraction':
+        $operator_sign = '-';
+        $last_value = $num1-$num2;
+        break;
+    case 'multiplication':
+        $operator_sign = '*';
+        $last_value = $num1*$num2;
+        break;
+    case 'division':
+        $operator_sign = '/';
+        $last_value = $num1/$num2;
+        break;
+    default:
+        echo 'please enter correct operator';
+        break;
+}
+echo "<br>$num1 $operator_sign $num2 = $last_value";
+
 ?>
