@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
         <div>
             <label for="">first number</label><br>
-            <input type="text" name="num1" id=""><br>
+            <input type="number" name="num1" id=""><br>
             <label for="">second number</label><br>
             <input type="number" name="num2" id=""><br>
             <label for="">third number</label><br>
